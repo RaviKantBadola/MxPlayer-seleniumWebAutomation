@@ -41,63 +41,65 @@ public class MxVdesiTest {
 	}
 	
 	@Test(enabled=true)
-	public void Veiwall() {
+	public void TC_144() {
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.verifyingveiwall();
 	}
-	
-	
+
 	@Test(enabled = false)
-	public void clickNextButton() {
-		
-		mxVdesiPOM.clickNextButton();
-	}
-	@Test(enabled = false)
-	public void verifyingNextButton() {
+	public void TC_146() {
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.varifyNextButton();
 	}
-	@Test (enabled = false)
-	public void clickonPreviosButton() {
-		mxVdesiPOM.clickMxVDesi();
-		mxVdesiPOM.clickMxVDesi();
-		mxVdesiPOM.clickPreviousButton();
-		
-	}
+	
 	@Test(enabled = false)
-	public void verifyingPreviousButton() {
+	public void TC_147() {
+		
+		mxVdesiPOM.clickNextButton();
+	}
+	
+	@Test(enabled = false)
+	public void TC_148() {
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.clickNextButton();
 		mxVdesiPOM.verifyingPreviousButton();
 		
 	}
+	@Test (enabled = false)
+	public void TC_149() {
+		mxVdesiPOM.clickMxVDesi();
+		mxVdesiPOM.clickMxVDesi();
+		mxVdesiPOM.clickPreviousButton();
+		
+	}
+	
 	@Test(enabled=false)
-	public void verifyinghoverandpopup() {
+	public void TC_150() {
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.verifyinghoverpopup();
 	}
 		
 	
 	@Test(enabled=false)
-	public void Hoverandpopout() throws InterruptedException {
+	public void TC_151() throws InterruptedException {
 		
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.hoverandpopup();
 	}
 	@Test(enabled=false)
-	public void Hoverandpopoutplaybutton() throws InterruptedException {
+	public void TC_153() throws InterruptedException {
 		
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.hoverpopupplaybutton();
 	}
 	@Test(enabled=false)
-	public void Hoverandpopoutaddtomylist() throws InterruptedException {
+	public void TC_155() throws InterruptedException {
 		
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.hoverandpopupAddtolist();
 	}
 	@Test(enabled=true)
-	public void Hoverandpopompr() throws InterruptedException {
+	public void TC_157() throws InterruptedException {
 		
 		mxVdesiPOM.clickMxVDesi();
 		mxVdesiPOM.hoverandpopupAddmoreinfo();
